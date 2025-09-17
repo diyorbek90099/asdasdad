@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                   
+                    <span class="logo-text">Portfolio</span>
+                </div>
+                
+                <nav class="nav desktop-nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#services" class="nav-link">Projects</a>
+                    
+                </nav>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            
+            <nav class="mobile-nav" id="mobileNav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Projects</a>
+                
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Sensorika o'quvchisi
+                        <span class="text-primary">Shoxnazarov Diyorbek</span>
+                    </h1>
+                    <p class="hero-description">
+                        Guruhlari: Meta Front-end, Back-end
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="scrollToSection('contact')">
+                            Biz bilan bog'lanish
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <button class="btn btn-outline" onclick="scrollToSection('services')">
+                            Projects
+                        </button>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="hero-image">
+                    <img src="https://avatars.mds.yandex.net/get-altay/7652307/2a00000188fda36535665aa28f3f0ecb0bf9/XXL_height" alt="">
+                    <div class="floating-card card-1">
+                        <div class="card-indicator"></div>
+                        <span>Meta Front-end Developer</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-indicator"></div>
+                        <span>Back-end</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+
+                
+                <div class="about-text">
+                    <h2 class="section-title">Sensorika o'quv markazi haqida</h2>
+                    
+                            <div class="feature-content">
+                                <h3>O'z ishining professionallari</h3>
+                                <p>Zuuur o'qitovchilar</p>
+                            </div>
+                        
+                        
+                        
+                        
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Qilgan loyixalarim</h2>
+                
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3>Kalkulyator</h3>
+                    
+                    
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>IMDB</h3>
+                   
+                    
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Weather</h3>
+                    
+                    
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                
+                
+                
+                
+
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +998 90 123 45 67</p>
+                    <p><i class="fas fa-envelope"></i> shokhnazarovdiyorbek@gmail.com</p>
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
